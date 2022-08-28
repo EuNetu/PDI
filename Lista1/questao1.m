@@ -1,5 +1,5 @@
-im = zeros(50,256)
-im = uint8(im)
+im = zeros(50,256);
+im = uint8(im);
 
 for(i=1:1:size(im,1))
   for(j=1:1:size(im,2))
@@ -7,5 +7,5 @@ for(i=1:1:size(im,1))
   endfor
 endfor
 
-figure(1)
-imshow(im)
+figure(1);
+imshow(im);

@@ -6,12 +6,13 @@ for(i=1:1:size(lena,1))
   endfor
 endfor
 
-tic
+
 valorEntrada = input("Digite o valor: ");
 valorEntrada = valorEntrada/100
-toc
 
+tic
 lena3(:,:) = valorEntrada*lena(:,:,1) + valorEntrada*lena(:,:,2) + valorEntrada*lena(:,:,3);
+toc
 
 figure(1);
 imshow(lena3);
